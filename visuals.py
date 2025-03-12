@@ -1108,7 +1108,7 @@ def create_fantasy_dashboard():
     full_html = "\n".join(html_content)
     
     # Write to file
-    output_file = "fantasy_football_dashboard.html"
+    output_file = "index.html"
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(full_html)
     
